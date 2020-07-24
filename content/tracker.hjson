@@ -7,6 +7,6 @@ alternate: false
 reload: 30
 restitution: 0.03
 range: 150
-shootCone: 360
+shootCone: 0
 health: 350
 innacuracy: 10
