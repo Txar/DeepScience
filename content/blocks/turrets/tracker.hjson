@@ -10,7 +10,7 @@ range: 150
 shootCone: 0
 health: 350
 innacuracy: 10
-category: turrets
+category: turret
 requirements: [
   lum/10
   lead/50
