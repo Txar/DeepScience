@@ -41,7 +41,8 @@ ammo: {
 }
 requirements: [
   undulium/35
-  metaglass/20
+  diamond/20
+  lum/30
 ]
 category: turret
 research: cyclone
