@@ -3,7 +3,7 @@ const tracker = extendContent(ItemTurret, "tracker", {
 	shouldTurn(){},
 	update(tile){
 		tile.entity.rotation = Angles.mouseAngle(tile.drawx(),tile.drawy());
-		if(Vars.player.isShooting){
+		if(Vars.player.isShooting()){
 			this.updateShooting(tile);
 		}
 	}
