@@ -1,0 +1,12 @@
+name: Tracker
+description: A useful turret, that follows your cursor, shooting as you shoot.
+size: 2
+spread: 1
+shots: 2
+alternate: false
+reload: 30
+restitution: 0.03
+range: 150
+shootCone: 0
+health: 350
+innacuracy: 10
