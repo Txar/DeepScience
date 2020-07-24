@@ -1,6 +1,6 @@
 {
 	"name": "Undulium Mixer",
-	"description": "Mixes plastanium with liquid lum.",
+	"description": "Mixes metaglass with liquid lum. Outputted item is undulium.",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
