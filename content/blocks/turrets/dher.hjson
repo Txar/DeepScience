@@ -44,7 +44,7 @@ ammo: {
 }
 requirements: [
   lum/100
-  dherium/150
+  diamond/150
   lead/50
 ]
 category: turret
