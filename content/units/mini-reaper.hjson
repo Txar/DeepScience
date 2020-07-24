@@ -1,0 +1,18 @@
+type: hoverUnit
+name: Licher
+description: Its like reaper and lich had a baby... WAIT THATS NOT WHAT I MEANT
+speed: 0.006
+flying: true
+health: 2500
+hitsize: 20
+engineSize: 3.0
+drag: 0.01
+mass: 5
+range: 50
+weapon: {
+  name: an-gun
+  length: 1
+  reload: 25
+  damage: 18
+  bullet: missileSwarm
+}

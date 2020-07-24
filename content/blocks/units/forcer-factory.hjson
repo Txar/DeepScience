@@ -1,0 +1,25 @@
+name: Forcer Factory
+description: Makes Forcers.
+type: UnitFactory
+unitType: forcer
+size: 3
+maxSpawn: 3
+produceTime: 2000
+consumes: {
+  power: 0.4
+  items: {
+    items: [
+      lum/20
+      phase-fabric/5
+    ]
+  }
+}
+category: units
+research: ghoul-factory
+requirements: [
+  lead/50
+  copper/50
+  phase-fabric/30
+  lum/50
+  silicon/30
+]

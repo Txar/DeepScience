@@ -1,0 +1,21 @@
+name: Ice Thrower Factory
+description: Makes Ice Throwers.
+type: UnitFactory
+unitType: ice-thrower
+size: 2
+produceTime: 350
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      ice-shards/5
+    ]
+  }
+}
+category: units
+research: spirit-factory
+requirements: [
+  lead/50
+  copper/20
+  lum/15
+]

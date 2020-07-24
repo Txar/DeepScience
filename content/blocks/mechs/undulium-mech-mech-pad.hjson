@@ -1,0 +1,15 @@
+name: Undulium Mech Pad
+description: Transform into the Undulium mech.
+type: MechPad
+mech: undulium-mech
+size: 2
+consumes: {
+  power: 0.6
+}
+category: upgrade
+research: undulium-fighter-factory
+requirements: [
+  undulium/40
+  lead/40
+  graphite/20
+]

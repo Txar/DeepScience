@@ -1,0 +1,18 @@
+{
+	"name": "Armored Battery",
+	"type": "Battery",
+	"size": "3",
+	"description": "Can store less power, can handle more damage.",
+	"hasPower": true,
+	"health": 2000 
+	"consumes": {
+		"powerBuffered": 40000
+	},
+	"category": "power",
+	"research": "battery",
+	"requirements": [
+		{ "item": "lead", "amount": 10 },
+		{ "item": "lum", "amount": 30 },
+		{ "item": "silicon", "amount": 10 }
+	]
+}

@@ -1,0 +1,12 @@
+{
+"name": "Dherium Wall",
+"type": "Wall",
+"size": 1,
+"health": 960,
+"description": "Kinda diamond wall, kinda thorium wall.",
+"requirements": [
+  {"item": "dherium", "amount": 6}
+]
+"research": "thorium-wall",
+"category": "defense",
+}

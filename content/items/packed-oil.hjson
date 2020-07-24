@@ -1,0 +1,4 @@
+type: resource
+name: Packed Oil
+description: Oil in item form.
+color: 000000

@@ -1,0 +1,13 @@
+{
+"name": "Wizz Wall",
+"type": "deflectorWall",
+"size": 1,
+"health": 1020,
+"description": "Wizz wall, nothing special.",
+"requirements": [
+  {"item": "wizz", "amount": 4},
+  {"item": "phase-fabric", "amount": 2},
+]
+"research": "phase-wall",
+"category": "defense",
+}

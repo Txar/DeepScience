@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter",
+	"name": "Lum Crucible",
+	"description": "Melts lead with copper into lum",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 2},
+				{"item": "lead", "amount": 1}
+			]}
+		}
+	"outputItem": {"item": "lum", "amount": "2"},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

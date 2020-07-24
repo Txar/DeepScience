@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Wizz Smelter",
+	"description": "Smelts Lum, Dherium and Silicon into Wizz",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{"item": "dherium", "amount": 4},
+				{"item": "silicon", "amount": 2},
+				{"item": "lum", "amount": 3},
+			],
+		}
+	},
+	"outputItem": {"item": "wizz", "amount": "1"},
+	"requirements": [
+		{ "item": "undulium", "amount": 50 },
+		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "dherium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

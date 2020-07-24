@@ -1,0 +1,4 @@
+type: floor
+name: Igneus Rock Floor
+playerUnmineable: true
+walkEffect: fire

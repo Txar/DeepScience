@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter",
+	"name": "Copper Solidifier",
+	"description": "Solidifies molten copper.",
+	"size": 1,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "copper", "amount": 1},
+	"consumes": {
+		liquid: {"liquid": "molten-copper", "amount": "0.312"},
+		},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "mechanical-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

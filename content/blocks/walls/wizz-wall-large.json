@@ -1,0 +1,13 @@
+{
+"name": "Large Wizz Wall",
+"type": "deflectorWall",
+"size": 2,
+"health": 4080,
+"description": "Just a bigger Wizz wall. Nothing special.",
+"requirements": [
+  {"item": "wizz", "amount": 16},
+  {"item": "phase-fabric", "amount": 8},
+]
+"research": "wizz-wall",
+"category": "defense",
+}

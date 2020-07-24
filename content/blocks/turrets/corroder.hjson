@@ -1,0 +1,46 @@
+name: corroder
+localizedName: Corroder
+description: A really THICC turret. Uses molten lum when shooting.
+health: 11240
+size: 7
+reload: 40
+range: 150
+expanded: True
+ammoUseEffect: shellEjectBig
+inaccuracy: 0
+consumes: {
+  liquid: {
+    liquid: molten-lum
+    amount: 0.3
+  }
+}
+ammo: {
+  pozilium: {
+    speed: 7
+    damage: 200
+    bulletWidth: 20
+    bulletHeight: 26
+    shootEffect: shootPyraFlame
+  }
+  blast-compound: {
+    speed: 7
+    damage: 130
+    bulletWidth: 20
+    bulletHeight: 26
+    shootEffect: shootPyraFlame
+  }
+  thorium: {
+    speed: 7
+    damage: 100
+    bulletWidth: 10
+    bulletHeight: 20
+    shootEffect: blastsmoke
+  }
+}
+requirements: [
+  undulium/100
+  lead/300
+  diamond/100
+]
+category: turret
+research: spectre

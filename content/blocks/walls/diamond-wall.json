@@ -1,0 +1,12 @@
+{
+"name": "Diamond Wall",
+"type": "wall"
+"size": 1,
+"health": 750,
+"description": "Diamond wall. That is all.",
+"requirements": [
+  {"item": "diamond", "amount": 6}
+]
+"research": "copper-wall",
+"category": "defense",
+}

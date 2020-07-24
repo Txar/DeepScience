@@ -1,0 +1,6 @@
+type: material
+name: Dherium
+description: Radioactive and hard.
+color: a678b3
+radioactivity: 1
+cost: 2.75

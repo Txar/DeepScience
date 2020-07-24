@@ -1,0 +1,9 @@
+name: Molten Copper
+description: Just copper in liquid form.
+temperature: 1.5
+flammability: 0.3
+viscosity: 0.4
+effect: melting
+color: d99d73
+barColor: d99d73
+explosiveness: 0.0

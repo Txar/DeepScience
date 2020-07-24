@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Multi Phase Weaver",
+	"description": "Faster, bigger phase weaver.",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 40,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "sand", "amount": 12},
+				{"item": "thorium", "amount": 6},
+			]
+		}
+	},
+	"outputItem": {"item": "phase-fabric", "amount": "3"},
+	"requirements": [
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "lum", "amount": 100 },
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

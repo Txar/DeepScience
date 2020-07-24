@@ -1,0 +1,18 @@
+name: Ice Thrower Pad
+description: Transform into the Ice Thrower.
+type: MechPad
+mech: ice-thrower-mech
+size: 2
+consumes: {
+  power: 0.6
+  items: {
+    items: [ice-shards/5]
+  }
+}
+category: upgrade
+research: ice-thrower-factory
+requirements: [
+  lum/40
+  lead/40
+  graphite/20
+]

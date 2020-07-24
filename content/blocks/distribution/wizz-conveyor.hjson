@@ -1,0 +1,11 @@
+type: Conveyor
+name: Wizz conveyor
+description: Wizz conveyor. Very fast.
+requirements: [
+  titanium/3
+  wizz/3
+]
+category: distribution
+speed: 0.14
+research: titanium-conveyor
+health: 85

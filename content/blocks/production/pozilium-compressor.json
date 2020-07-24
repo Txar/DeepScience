@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Pozilium Compressor",
+	"description": "Compresses pyratite and thorium into pozilium.",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{"item": "pyratite", "amount": 1},
+				{"item": "thorium", "amount": 1},
+			]
+		}
+	},
+	"outputItem": {"item": "pozilium", "amount": "1"},
+	"requirements": [
+		{ "item": "undulium", "amount": 30 },
+		{ "item": "thorium", "amount": 20 },
+		{ "item": "lead", "amount": 30 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

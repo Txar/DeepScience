@@ -1,0 +1,11 @@
+cacheLayer: water
+type: floor
+name: Natural Deep Cryofluid
+isLiquid: true
+liquidDrop: cryofluid
+playerUnmineable: true
+drownTime: 240
+walkEffect: freezing
+variants: 1
+oreScale: 0
+edge: naturalcryofluiddeep-edge

@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Pozilium Generator
+description: Pozilium makes BOOM, BOOM makes power.
+size: 3
+hasPower: true
+hasItems: true
+itemDuration: 50
+powerProduction: 17.0
+consumes: {
+  items: {
+    items: [
+      pozilium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/10
+  silicon/30
+  undulium/30
+]
+category: power
+research: thorium-reactor

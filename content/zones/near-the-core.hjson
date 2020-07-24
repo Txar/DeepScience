@@ -1,0 +1,30 @@
+name: Near The Planet Core
+description: A big, unstable gap near the planet's core.
+loadout: basicNucleus
+startingItems: [
+  copper/500
+  lead/300
+  metaglass/300
+]
+conditionWave: 15
+launchPeriod: 10
+requirements: [
+  {
+    type: ZoneWave
+    zone: desertWastes
+    wave: 20
+  }
+  {
+    type: Unlock
+    block: copper-solidifier
+  }
+]
+resources: [
+  lead
+  copper
+  titanium
+  coal
+  thorium
+  diamond
+  sand
+]

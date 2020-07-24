@@ -1,0 +1,9 @@
+name: Molten Lead
+description: Just lead in liquid form.
+temperature: 1.5
+flammability: 0.3
+viscosity: 0.4
+effect: melting
+color: 8c7fa9
+barColor: 8c7fa9
+explosiveness: 0.0

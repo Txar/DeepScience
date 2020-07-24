@@ -1,0 +1,12 @@
+{
+"name": "Large Dherium Wall",
+"type": "Wall",
+"size": 2,
+"health": 3840,
+"description": "Just a bigger dherium wall. Nothing special.",
+"requirements": [
+  {"item": "dherium", "amount": 24},
+]
+"research": "dherium-wall",
+"category": "defense",
+}

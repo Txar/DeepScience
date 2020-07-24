@@ -1,0 +1,21 @@
+{
+	"name": "Oil Lamp",
+	"description": "Uses oil to make light.",
+	"brightness": 0.85,
+	"radius": 240,
+	"hasLiquids": true,
+	"hasPower": false,
+	"consumes": {
+	  "liquid": {
+	    "liquid": "oil",
+	    "amount": 0.05},
+
+	}
+	"size": 2,
+	"requirements": [
+		{ "item": "silicon", "amount": 15 },
+		{ "item": "lum", "amount": 15 },
+	],
+	"category": "effect",
+	"buildVisibility": "lightingOnly"
+}

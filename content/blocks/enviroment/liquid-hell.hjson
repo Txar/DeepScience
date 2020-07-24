@@ -1,0 +1,10 @@
+type: floor
+name: Natural Slag
+isLiquid: true
+liquidDrop: slag
+playerUnmineable: true
+drownTime: 240
+walkEffect: melting
+variants: 1
+oreScale: 0
+cacheLayer: tar
