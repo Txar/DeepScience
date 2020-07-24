@@ -8,4 +8,5 @@ if(typeof(require) !== "undefined"){
 	require("blocks/ash");
 	require("blocks/tentacler")
 	require("blocks/trinox")
+	require("tracker")
 }
