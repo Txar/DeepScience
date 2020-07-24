@@ -10,3 +10,10 @@ range: 150
 shootCone: 0
 health: 350
 innacuracy: 10
+ammo: {
+  copper: standardCopper
+  pyratite: standardIncendiary
+  thorium: standardThorium
+  scrap: flakScrap
+}
+research: scatter
