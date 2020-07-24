@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Wizz Smelter",
-	"description": "Smelts Lum, Dherium and Silicon into Wizz",
+	"description": "Smelts Diamond, Thorium and Silicon into Wizz",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
