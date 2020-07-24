@@ -13,17 +13,17 @@
 		"power": 3.0,
 		"items": {
 			"items": [
-				{"item": "dherium", "amount": 4},
+				{"item": "thorium", "amount": 4},
 				{"item": "silicon", "amount": 2},
-				{"item": "lum", "amount": 3},
+				{"item": "diamond", "amount": 3},
 			],
 		}
 	},
-	"outputItem": {"item": "wizz", "amount": "1"},
+	"outputItem": {"item": "wizz", "amount": "3"},
 	"requirements": [
 		{ "item": "undulium", "amount": 50 },
 		{ "item": "surge-alloy", "amount": 50 },
-		{ "item": "dherium", "amount": 100 }
+		{ "item": "thorium", "amount": 100 }
 	],
 	"category": "crafting",
 	"research": "alloy-smelter",
