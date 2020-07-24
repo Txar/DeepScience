@@ -14,6 +14,7 @@ category: turrets
 requirements: [
   lum/10
   lead/50
+]
 ammo: {
   copper: standardCopper
   pyratite: standardIncendiary
