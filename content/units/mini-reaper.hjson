@@ -5,7 +5,7 @@ speed: 0.006
 flying: true
 health: 2500
 hitsize: 20
-engine offset: 10
+engineOffsetY: 10
 engineSize: 3.0
 drag: 0.01
 mass: 5
