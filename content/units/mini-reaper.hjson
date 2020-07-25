@@ -5,7 +5,7 @@ speed: 0.006
 flying: true
 health: 2500
 hitsize: 20
-engineOffset: 10
+engineOffset: 15
 engineSize: 3.0
 drag: 0.01
 mass: 5
@@ -14,6 +14,6 @@ weapon: {
   name: an-gun
   length: 1
   reload: 25
-  damage: 18
+  damage: 24
   bullet: missileSwarm
 }
