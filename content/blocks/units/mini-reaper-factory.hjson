@@ -4,7 +4,7 @@ type: UnitFactory
 unitType: mini-reaper
 size: 4
 maxSpawn: 2
-produceTime: 3500
+produceTime: 1200
 consumes: {
   power: 1.2
   items: {
