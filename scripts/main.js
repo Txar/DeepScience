@@ -6,7 +6,8 @@ if(typeof(require) !== "undefined"){
 	require("blocks/oil-lamp");
 	require("blocks/undulium-mixer");
 	require("blocks/ash");
-	require("blocks/tentacler")
-	require("blocks/trinox")
-	require("tracker")
+	require("blocks/tentacler");
+	require("blocks/trinox");
+	require("tracker");
+        require("blocks/stomper");
 }
