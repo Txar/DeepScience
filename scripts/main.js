@@ -9,5 +9,5 @@ if(typeof(require) !== "undefined"){
 	require("blocks/tentacler");
 	require("blocks/trinox");
 	require("tracker");
-        require("blocks/stomper");
+        require("blocks/stomper")
 }
