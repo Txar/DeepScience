@@ -11,7 +11,7 @@ shootCone: 0
 health: 400
 category: turret
 requirements: [
-  lum/10
-  lead/50
+  lum/20
+  graphite/35
 ]
 research: tracker
