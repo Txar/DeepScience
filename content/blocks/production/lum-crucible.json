@@ -4,7 +4,7 @@
 	"description": "Melts lead with copper into lum",
 	"size": 2,
 	"hasPower": true,
-	"hasLiquids": false,
+	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 10,
 	"craftTime": 50,
@@ -15,8 +15,13 @@
 			"items": [
 				{"item": "copper", "amount": 2},
 				{"item": "lead", "amount": 1}
-			]}
+			]
+		},
+		"liquid": {
+			"liquid": "water"
+			"amount": 10
 		}
+	},
 	"outputItem": {"item": "lum", "amount": "2"},
 	"requirements": [
 		{ "item": "lead", "amount": 50 },
