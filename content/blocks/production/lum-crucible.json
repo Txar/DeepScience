@@ -19,7 +19,7 @@
 		},
 		"liquid": {
 			"liquid": "water"
-			"amount": 1
+			"amount": 0.05
 		}
 	},
 	"outputItem": {"item": "lum", "amount": "2"},
