@@ -18,8 +18,7 @@
 		{ "item": "silicon", "amount": 100 },
 		{ "item": "plastanium", "amount": 100 },
 		{ "item": "lum", "amount": 100 },
-		{ "item": "metaglass", "amount": 50 },
-		{ "item": "thorium", "amount": 50 }
+		{ "item": "metaglass", "amount": 5 },
 	],
 	"category": "turret",
 	"research": "lancer"
