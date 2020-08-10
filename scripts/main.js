@@ -8,6 +8,7 @@ if(typeof(require) !== "undefined"){
 	require("blocks/ash");
 	require("blocks/tentacler");
 	require("blocks/trinox");
+	require("lum-smelter");
 	//require("tracker");
         //require("blocks/stomper")
 }
