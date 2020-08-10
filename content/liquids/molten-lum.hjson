@@ -4,6 +4,6 @@ temperature: 1.5
 flammability: 0.3
 viscosity: 0.4
 effect: melting
-color: dbc9ad
-barColor: dbc9ad
+color: 00bfff
+barColor: 00bfff
 explosiveness: 0.0
