@@ -17,21 +17,21 @@ consumes: {
 ammo: {
   pozilium: {
     speed: 7
-    damage: 200
+    damage: 524
     bulletWidth: 20
     bulletHeight: 26
     shootEffect: shootPyraFlame
   }
   blast-compound: {
     speed: 7
-    damage: 130
+    damage: 478
     bulletWidth: 20
     bulletHeight: 26
     shootEffect: shootPyraFlame
   }
   thorium: {
     speed: 7
-    damage: 100
+    damage: 346
     bulletWidth: 10
     bulletHeight: 20
     shootEffect: blastsmoke
