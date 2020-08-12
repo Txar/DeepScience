@@ -2,6 +2,7 @@
 	"name": "Lum Crucible",
 	"description": "Melts lead with copper into lum",
 	"size": 2,
+        "type": "GenericSmelter"
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
