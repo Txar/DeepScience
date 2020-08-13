@@ -1,0 +1,10 @@
+name: Light Source
+description: TODO
+health: 350
+type: wall 
+category: upgrade
+size: 4
+requirements: [
+	lum/25
+	lead/35
+] 
