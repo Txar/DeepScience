@@ -11,7 +11,7 @@ function getLinkedBlock(tile, block, pred){
 const prism = extendContent(Block, "prism", {
 	load(){
 		this.super$load();
-		this.lightsource = Vars.content.getByName(ContentType.block, "deepscience-doom-light-source");
+		this.lightsource = Vars.content.getByName(ContentType.block, "mindblow-doom-light-source");
 		this.laserRegion = Core.atlas.find("laser");
 		this.laserEndRegion = Core.atlas.find("laser-end");
 	},
@@ -45,6 +45,14 @@ const prism = extendContent(Block, "prism", {
 				}
 			}));
 		}
+	},
+	drawPlace(x, y, rotation, valid){
+		this.super$drawPlace(x, y, rotation, valid);
+		Drawf.dashCircle(x * Vars.tilesize, y * Vars.tilesize, 300, Pal.placing);
+	},
+	drawSelect(tile){
+		this.super$drawSelect(tile);
+		Drawf.dashCircle(tile.drawx(), tile.drawy(), 300, tile.getTeam().color);
 	}
 });
 prism.entityType = prov(() => {
