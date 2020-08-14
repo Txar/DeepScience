@@ -1,10 +1,11 @@
-name: Light Source
-description: TODO
-health: 350
-type: wall 
-category: upgrade
+type: Wall
+health: 600
 size: 4
+name: LightSource
+description: Up to Txor.
+update: true
 requirements: [
-	lum/25
-	lead/35
-] 
+  copper/1
+]
+category: upgrade
+research: lancer
