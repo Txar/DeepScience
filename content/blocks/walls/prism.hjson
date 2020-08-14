@@ -1,0 +1,10 @@
+health: 600
+size: 8
+name: Prism
+description: Up to Txor.
+update: true
+requirements: [
+  copper/1
+]
+category: upgrade
+research: lancer
