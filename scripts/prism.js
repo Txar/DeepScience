@@ -11,7 +11,7 @@ function getLinkedBlock(tile, block, pred){
 const prism = extendContent(Block, "prism", {
 	load(){
 		this.super$load();
-		this.lightsource = Vars.content.getByName(ContentType.block, "deepscience-doom-light-source");
+		this.lightsource = Vars.content.getByName(ContentType.block, "deep-science-doom-light-source");
 		this.laserRegion = Core.atlas.find("laser");
 		this.laserEndRegion = Core.atlas.find("laser-end");
 	},
