@@ -14,6 +14,7 @@ weapon: {
   name: an-gun
   length: 1
   reload: 25
-  damage: 24
+  damage: 34
+  bullets: 12
   bullet: missileSwarm
 }
