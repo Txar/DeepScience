@@ -3,6 +3,7 @@ size: 8
 name: Prism
 description: Up to Txor.
 update: true
+layer: power
 requirements: [
   copper/1
 ]
