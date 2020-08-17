@@ -21,9 +21,9 @@ const prism = extendContent(Block, "prism", {
 		if(entity.getLinkedNum()>0){
 			var target = Units.closestTarget(tile.getTeam(), tile.drawx(), tile.drawy(), 300);
 			if(target!=null){
-				target.damage(entity.getLinkedNum()*8);
+				target.damage(entity.getLinkedNum()*100);
 				Units.nearbyEnemies(tile.getTeam(), target.x-15, target.y-15, 30, 30, cons(e =>{
-					e.damage(entity.getLinkedNum()*4);
+					e.damage(entity.getLinkedNum()*50);
 				}));
 			}
 		}
