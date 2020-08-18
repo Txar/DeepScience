@@ -12,7 +12,5 @@
 		{ "item": "copper", "amount": 100 },
 		{ "item": "graphite", "amount": 50 }
 	],
-	"research": "graphite-press",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
+	"research": "graphite-press"
 }
