@@ -7,8 +7,7 @@ const melter = extendContent(Block, "melter", {
 			var item = Vars.content.items().get(i);
 			if(item == null) return;
 			this.items.push(item);
-			var liquid = new Liquid(item.name);
-			liquid.color = item.color
+			var liquid = new Liquid(item.name, item.color);
 			//liquid.region = Core.atlas.find("cryofluid");
 			liquid.flammability = 0.2;
 			liquid.temperature = 1;
