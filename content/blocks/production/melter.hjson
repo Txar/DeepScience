@@ -1,0 +1,12 @@
+name: Melter
+description: Melts everything into its liquid counterpart, even modded items.
+size: 2
+update: true
+health: 300
+requirements: [
+	lum/50
+	copper/30
+	graphite/10
+]
+category: production
+buildVisibility: shown
