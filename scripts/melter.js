@@ -5,7 +5,7 @@ const melter = extendContent(Block, "melter", {
 		this.items = [];
 		for(var i = 0; i < Vars.content.items().size; i++){
 			var item = Vars.content.items().get(i);
-			if(item = null) return;
+			if(item == null) return;
 			this.items.push(item);
 			var liquid = new Liquid(item.name);
 			liquid.color = item.color
