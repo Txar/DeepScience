@@ -7,7 +7,7 @@ const melter = extendContent(Block, "melter", {
 			var item = Vars.content.items().get(i);
 			if(item == null) return;
 			this.items.push(item);
-			var liquid = new Liquid("icon-"+item.name, item.color);
+			var liquid = new Liquid(item.icon(Cicon.medium).name, item.color);
 			liquid.localizedName = "Molten " + item.localizedName;
 			liquid.flammability = 0.1;
 			liquid.temperature = 0.6;
