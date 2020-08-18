@@ -6,6 +6,7 @@
 	"hasLiquids": true,
 	"hasItems": true,
 	"itemCapacity": 10,
+	"liquidCapacity": 20,
 	"category": "crafting",
 	"requirements": [
 		{ "item": "lum", "amount": 50 },
