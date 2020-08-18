@@ -7,6 +7,11 @@
 	"hasItems": true,
 	"itemCapacity": 10,
 	"category": "crafting",
+	"requirements": [
+		{ "item": "lum", "amount": 50 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "graphite", "amount": 50 }
+	],
 	"research": "graphite-press",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
