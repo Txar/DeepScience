@@ -7,12 +7,12 @@ const melter = extendContent(Block, "melter", {
 			var item = Vars.content.items().get(i);
 			if(item == null) return;
 			this.items.push(item);
-			var liquid = new Liquid(item.localizedName, item.color);
-			//liquid.region = Core.atlas.find("cryofluid");
-			liquid.flammability = 0.2;
-			liquid.temperature = 1;
-			liquid.heatCapacity = 0;
-			liquid.viscosity = 1;
+			var liquid = new Liquid("icon-"+item.name, item.color);
+			liquid.localizedName = "Molten " + item.localizedName;
+			liquid.flammability = 0.1;
+			liquid.temperature = 0.6;
+			liquid.heatCapacity = 0.3;
+			liquid.viscosity = 0.5;
 			this.liquids.push(liquid);
 		};
 	}
