@@ -1,8 +1,8 @@
-this.global.liquids = [];
+0.this.global.liquids = [];
 this.global.items = [];
 for(var i = 0; i < Vars.content.items().size; i++){
 	var item = Vars.content.items().get(i);
-	if(item == null) return;
+	if(item == null) continue;
 	var liquid = new Liquid(item.icon(Cicon.medium).name, item.color);
 	liquid.localizedName = "Molten " + item.localizedName;
 	liquid.flammability = 0.1;
@@ -15,7 +15,7 @@ print("Liquids Loaded");
 print(this.global.liquids);
 for(var i = 0; i < Vars.content.liquids().size; i++){
 	var liquid = Vars.content.liquids().get(i);
-	if(liquid == null || liquid in this.global.liquids) return;
+	if(liquid == null || liquid in this.global.liquids) continue;
 	var item = new Item(liquid.icon(Cicon.medium).name, liquid.color);
 	item.localizedName = "Solid " + liquid.localizedName;
 	item.color = liquid.color;
