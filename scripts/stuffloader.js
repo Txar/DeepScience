@@ -13,7 +13,7 @@ for(var i = 0; i < Vars.content.items().size; i++){
 };
 print("Liquids Loaded");
 print(this.global.liquids);
-for(var i = 0; i < Vars.content.liquids().size; i++){
+/*for(var i = 0; i < Vars.content.liquids().size; i++){
 	var liquidd = Vars.content.liquids().get(i);
 	if(liquidd == null || liquidd in this.global.liquids) continue;
 	var item = new Item(liquidd.icon(Cicon.medium).name, liquidd.color);
@@ -24,4 +24,4 @@ for(var i = 0; i < Vars.content.liquids().size; i++){
 	this.global.items.push(item);
 };
 print("Items Loaded");
-print(this.global.items);
+print(this.global.items);*/
