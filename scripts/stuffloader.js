@@ -1,4 +1,4 @@
-0.this.global.liquids = [];
+this.global.liquids = [];
 this.global.items = [];
 for(var i = 0; i < Vars.content.items().size; i++){
 	var item = Vars.content.items().get(i);
