@@ -1,4 +1,4 @@
-const melter = extendContent(GenericCrafter, "melter", {
+const imelter = extendContent(GenericCrafter, "i-melter", {
 	load(){
 		this.super$load();
 		this.liquids = [];
@@ -40,4 +40,4 @@ const melter = extendContent(GenericCrafter, "melter", {
         }
     }
 });
-melter.meltTimer = melter.timers++;
+imelter.meltTimer = imelter.timers++;

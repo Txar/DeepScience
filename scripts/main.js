@@ -10,7 +10,7 @@ if(typeof(require) !== "undefined"){
 	require("blocks/trinox");
 	require("prism");
 	//require("stuffloader");
-	require("melter")
+	require("i-melter")
 	//require("lum-crucible");
 	//require("tracker");
         //require("blocks/stomper")
