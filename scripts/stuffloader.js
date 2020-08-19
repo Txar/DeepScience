@@ -1,4 +1,4 @@
-this.global.liquids = [];
+/*this.global.liquids = [];
 this.global.items = [];
 for(var i = 0; i < Vars.content.items().size; i++){
 	var item = Vars.content.items().get(i);
@@ -13,7 +13,7 @@ for(var i = 0; i < Vars.content.items().size; i++){
 };
 print("Liquids Loaded");
 print(this.global.liquids);
-/*for(var i = 0; i < Vars.content.liquids().size; i++){
+for(var i = 0; i < Vars.content.liquids().size; i++){
 	var liquidd = Vars.content.liquids().get(i);
 	if(liquidd == null || liquidd in this.global.liquids) continue;
 	var item = new Item(liquidd.icon(Cicon.medium).name, liquidd.color);
@@ -25,3 +25,4 @@ print(this.global.liquids);
 };
 print("Items Loaded");
 print(this.global.items);*/
+print("Test [accent] TEST []");
