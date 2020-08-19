@@ -15,5 +15,12 @@ const melter = extendContent(Block, "melter", {
 			liquid.viscosity = 0.5;
 			this.liquids.push(liquid);
 		};
+		for(var i = 0; i < Vars.content.liquids().size; i++){
+			var liquid = Vars.content.items.get(i);
+			if(liquid == null || liquid in this.liquids) return;
+			var item = new Item(liquid.icon(Cicon.medium).name, liquid.color);
+			item.localizedName = "Solid " + liquid.localizedName;
+			item.color = liquid.color;
+		};
 	}
 });
