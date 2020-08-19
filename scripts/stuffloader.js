@@ -3,7 +3,7 @@ this.global.liquids = [];
 this.global.items = [];
 for(var i = 0; i < Vars.content.items().size; i++){
 	var item = Vars.content.items().get(i);
-	if(item == null) return;
+	if(item == null) continue;
 	this.global.items.push(item);
 	var liquid = new Liquid(item.icon(Cicon.medium).name, item.color);
 	liquid.localizedName = "Molten " + item.localizedName;
