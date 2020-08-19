@@ -9,7 +9,8 @@ if(typeof(require) !== "undefined"){
 	require("blocks/tentacler");
 	require("blocks/trinox");
 	require("prism");
-	require("melter")
+	require("stuffloader");
+	//require("melter")
 	//require("lum-crucible");
 	//require("tracker");
         //require("blocks/stomper")
