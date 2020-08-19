@@ -14,11 +14,11 @@ for(var i = 0; i < Vars.content.items().size; i++){
 print("Liquids Loaded");
 print(this.global.liquids);
 for(var i = 0; i < Vars.content.liquids().size; i++){
-	var liquid = Vars.content.liquids().get(i);
-	if(liquid == null || liquid in this.global.liquids) continue;
-	var item = new Item(liquid.icon(Cicon.medium).name, liquid.color);
-	item.localizedName = "Solid " + liquid.localizedName;
-	item.color = liquid.color;
+	var liquidd = Vars.content.liquids().get(i);
+	if(liquidd == null || liquidd in this.global.liquids) continue;
+	var item = new Item(liquidd.icon(Cicon.medium).name, liquidd.color);
+	item.localizedName = "Solid " + liquidd.localizedName;
+	item.color = liquidd.color;
 	item.hardness = 0.3;
 	item.cost = 2;
 	this.global.items.push(item);
