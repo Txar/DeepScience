@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Oil Packer",
-	"description": "Packs oil.",
+	"description": "Packs oil into gray boxes.",
 	"size": 2,
 	"hasLiquids": true,
 	"hasItems": true,
