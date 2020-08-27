@@ -2,7 +2,7 @@
 "name": "Large Wizz Wall",
 "type": "deflectorWall",
 "size": 2,
-"health": 4080,
+"health": 4340,
 "description": "Just a bigger Wizz wall. Nothing special.",
 "requirements": [
   {"item": "wizz", "amount": 16},
