@@ -1,7 +1,7 @@
 health: 600
 size: 8
 name: Prism
-description: Up to Txor.
+description: Shoots a powerful laser of light. It gets power from lights sources so as you place more of them touching it, the more damage it deals. Can deal really much damage but for only one enemy at a time.
 update: true
 layer: power
 requirements: [
