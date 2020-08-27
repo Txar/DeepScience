@@ -2,7 +2,7 @@
 "name": "Wizz Wall",
 "type": "deflectorWall",
 "size": 1,
-"health": 1020,
+"health": 1080,
 "description": "Wizz wall, nothing special.",
 "requirements": [
   {"item": "wizz", "amount": 4},
