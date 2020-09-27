@@ -1,9 +1,9 @@
 {
 "name": "Wizzium Wall",
-"type": "deflectorWall",
+"type": "wall",
 "size": 1,
 "health": 1280,
-"description": "Looks kinda like a thorium wall... but its not.",
+"description": "Wizzium wall.",
 "requirements": [
   {"item": "wizzium", "amount": 4},
   {"item": "phase-fabric", "amount": 2}

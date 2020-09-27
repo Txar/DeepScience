@@ -1,9 +1,9 @@
 {
 "name": "Lum Wall",
-"type": "surgeWall",
+"type": "wall",
 "size": 1,
 "health": 380,
-"description": "Poor version of Surge wall.",
+"description": "A little more durable than copper wall.",
 "requirements": [
   {"item": "lum", "amount": 6}
 ],

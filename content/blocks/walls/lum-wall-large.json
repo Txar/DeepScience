@@ -3,7 +3,7 @@
 "type": "surgeWall",
 "size": 2,
 "health": 1520,
-"description": "Just a bigger Lum wall. Nothing special.",
+"description": "A little more durable than copper wall. Spans multiple tiles.",
 "requirements": [
   {"item": "lum", "amount": 24},
 ],

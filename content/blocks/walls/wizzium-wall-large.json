@@ -1,9 +1,9 @@
 {
 "name": "Large Wizzium Wall",
-"type": "deflectorWall",
+"type": "wall",
 "size": 2,
 "health": 5020,
-"description": "Just a bigger undulium wall. Nothing special.",
+"description": "Just a bigger Wizzium wall. Nothing special.",
 "requirements": [
   {"item": "wizzium", "amount": 16},
   {"item": "phase-fabric", "amount": 8}
