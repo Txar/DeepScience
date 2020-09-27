@@ -40,8 +40,8 @@ ammo: {
   }
 }
 requirements: [
-  wizzium/35
-  diamond/20
+  wizzium/50
+  titanium/120
   lum/30
 ]
 category: turret
