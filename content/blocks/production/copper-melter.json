@@ -15,7 +15,7 @@
 			"items": [
 				{"item": "copper", "amount": 1}
 			]}
-		}
+		},
 	"outputLiquid": {"liquid": "molten-copper", "amount": "15.6"},
 	"requirements": [
 		{ "item": "copper", "amount": 150 },

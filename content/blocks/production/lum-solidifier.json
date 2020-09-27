@@ -10,7 +10,7 @@
 	"updateEffect": "smeltsmoke",
 	"outputItem": {"item": "lum", "amount": 1},
 	"consumes": {
-		liquid: {"liquid": "molten-lum", "amount": "0.312"},
+		"liquid": {"liquid": "molten-lum", "amount": "0.312"},
 		},
 	"requirements": [
 		{ "item": "copper", "amount": 50 },

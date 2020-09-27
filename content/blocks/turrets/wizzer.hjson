@@ -50,10 +50,9 @@ ammo: {
   }
 }
 requirements: [
-  undulium/100
   lead/300
-  diamond/100
-  wizz/200
+  lum/100
+  wizzium/200
 ]
 category: turret
 research: spectre

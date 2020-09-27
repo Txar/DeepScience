@@ -3,7 +3,7 @@ name: Leader
 description: Pretty cheap, good turret. Can shot with pretty weird stuf (lead and titanium).
 health: 4500
 size: 3
-reload: 20
+reload: 40
 shots: 4
 range: 210
 targetAir: True
@@ -15,7 +15,7 @@ ammo: {
     speed: 4
     damage: 26
     bulletWidth: 8
-    bulletHeight: 14
+    bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
   }
@@ -23,7 +23,7 @@ ammo: {
     speed: 4
     damage: 22
     bulletWidth: 8
-    bulletHeight: 14
+    bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
   }
@@ -31,7 +31,7 @@ ammo: {
     speed: 4
     damage: 15
     bulletWidth: 8
-    bulletHeight: 14
+    bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
    }
@@ -39,14 +39,14 @@ ammo: {
     speed: 4
     damage: 28
     bulletWidth: 8
-    bulletHeight: 14
+    bulletHeight: 11
     shootEffect: blastsmoke
    }
    thorium: {
     speed: 4
     damage: 34
     bulletWidth: 8
-    bulletHeight: 14
+    bulletHeight: 11
     shootEffect: blastsmoke
    }
 }

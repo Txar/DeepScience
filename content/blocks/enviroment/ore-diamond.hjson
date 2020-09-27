@@ -1,5 +1,0 @@
-type: oreBlock
-name: Diamond Ore
-oreDefault: true
-itemDrop: diamond
-variants: 3

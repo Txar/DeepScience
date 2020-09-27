@@ -4,7 +4,7 @@
 	"size": "3",
 	"description": "Can store less power, can handle more damage.",
 	"hasPower": true,
-	"health": 2000 
+	"health": 2000,
 	"consumes": {
 		"powerBuffered": 40000
 	},

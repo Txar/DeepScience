@@ -5,7 +5,7 @@ size: 3
 hasPower: true
 hasItems: true
 itemDuration: 50
-powerProduction: 17.0
+powerProduction: 30.0
 consumes: {
   items: {
     items: [
@@ -17,7 +17,7 @@ consumes: {
 requirements: [
   metaglass/10
   silicon/30
-  undulium/30
+  wizzium/30
 ]
 category: power
 research: thorium-reactor

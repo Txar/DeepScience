@@ -15,7 +15,7 @@
 			"items": [
 				{"item": "lum", "amount": 1}
 			]}
-		}
+		},
 	"outputLiquid": {"liquid": "molten-lum", "amount": "15.6"},
 	"requirements": [
 		{ "item": "lum", "amount": 50 },

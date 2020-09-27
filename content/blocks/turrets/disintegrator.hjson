@@ -40,7 +40,7 @@ ammo: {
   }
 }
 requirements: [
-  undulium/35
+  wizzium/35
   diamond/20
   lum/30
 ]
