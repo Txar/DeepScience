@@ -10,7 +10,7 @@ inaccuracy: 15
 rotatespeed: 15
 ammo: {
   pozilium: {
-    damage: 20,
+    damage: 20
     speed: 6.0
     bulletWidth: 10.0
     bulletHeight: 15.0

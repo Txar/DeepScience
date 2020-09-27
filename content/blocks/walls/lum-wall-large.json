@@ -1,6 +1,6 @@
 {
 "name": "Large Lum Wall",
-"type": "surgeWall",
+"type": "wall",
 "size": 2,
 "health": 1520,
 "description": "A little more durable than copper wall. Spans multiple tiles.",
