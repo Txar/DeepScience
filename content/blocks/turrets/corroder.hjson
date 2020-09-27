@@ -1,5 +1,6 @@
 name: corroder
 localizedName: Corroder
+type: ItemTurret
 description: A really THICC turret. Uses molten lum when shooting.
 health: 11240
 size: 7

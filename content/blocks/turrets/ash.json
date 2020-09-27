@@ -23,5 +23,6 @@
 		{ "item": "lum", "amount": 50 },
 	],
 	"category": "turret",
-	"research": "meltdown"
+	"research": "meltdown",
+	"buildVisibility": "hidden",
 }

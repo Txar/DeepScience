@@ -21,5 +21,6 @@
 		{ "item": "metaglass", "amount": 5 },
 	],
 	"category": "turret",
-	"research": "lancer"
+	"research": "lancer",
+	"buildVisibility": "hidden",
 }
