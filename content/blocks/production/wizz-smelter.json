@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Wizzium Smelter",
-	"description": "Smelts Diamond, Thorium and Silicon into Wizz",
+	"description": "Smelts Plastanium, Thorium and Silicon into Wizz",
 	"size": 3,
 	"hasPower": true,
 	"hasLiquids": false,
@@ -15,7 +15,7 @@
 			"items": [
 				{"item": "thorium", "amount": 4},
 				{"item": "silicon", "amount": 2},
-				{"item": "diamond", "amount": 3},
+				{"item": "plastanium", "amount": 3},
 			],
 		}
 	},

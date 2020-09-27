@@ -16,7 +16,7 @@ consumes: {
   }
 }
 requirements: [
-  undulium/50
+  wizzium/50
   diamond/50
   lum/50
 ]
