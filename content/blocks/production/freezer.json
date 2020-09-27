@@ -12,7 +12,7 @@
 	"consumes": {
 		"power": 0.25,
 		"liquid": {"liquid": "water", "amount": "0.156"},
-		}
+		},
 	"outputItem": {"item": "ice-shards", "amount": "1"},
 	"requirements": [
 		{ "item": "lum", "amount": 50 },

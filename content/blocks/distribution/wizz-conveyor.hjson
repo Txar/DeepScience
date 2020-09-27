@@ -1,9 +1,9 @@
 type: Conveyor
-name: Wizz conveyor
-description: Wizz conveyor. Very fast.
+name: Wizzium conveyor
+description: Wizzium conveyor. Very fast.
 requirements: [
   titanium/3
-  wizz/3
+  wizzium/3
 ]
 category: distribution
 speed: 0.14

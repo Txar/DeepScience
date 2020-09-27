@@ -6,7 +6,7 @@
 "description": "Just a bigger undulium wall. Nothing special.",
 "requirements": [
   {"item": "wizzium", "amount": 16},
-  {"item": "phase", "amount": 8}
+  {"item": "phase-fabric", "amount": 8}
 ],
 "research": "wizzium-wall",
 "category": "defense",

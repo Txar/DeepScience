@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Wizz Smelter",
+	"name": "Wizzium Smelter",
 	"description": "Smelts Diamond, Thorium and Silicon into Wizz",
 	"size": 3,
 	"hasPower": true,
@@ -19,9 +19,8 @@
 			],
 		}
 	},
-	"outputItem": {"item": "wizz", "amount": "3"},
+	"outputItem": {"item": "wizzium", "amount": "3"},
 	"requirements": [
-		{ "item": "undulium", "amount": 50 },
 		{ "item": "surge-alloy", "amount": 50 },
 		{ "item": "thorium", "amount": 100 }
 	],

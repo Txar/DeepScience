@@ -6,7 +6,7 @@
 "description": "Poor version of Surge wall.",
 "requirements": [
   {"item": "lum", "amount": 6}
-]
+],
 "research": "copper-wall",
 "category": "defense",
 }

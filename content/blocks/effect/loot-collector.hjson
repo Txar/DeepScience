@@ -4,6 +4,5 @@ localizedName: Mini Core
 health: 50
 size: 2
 category: effect
-unloadable: false
 breakable: true
 buildVisibility: sandboxOnly

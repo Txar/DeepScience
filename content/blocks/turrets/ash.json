@@ -17,11 +17,10 @@
 	"requirements": [
 		{ "item": "silicon", "amount": 100 },
 		{ "item": "titanium", "amount": 100 },
-		{ "item": "undulium", "amount": 100 },
-		{ "item": "diamond", "amount": 50 },
-                { "item": "thorium", "amount": 50 },
+        { "item": "thorium", "amount": 50 },
 		{ "item": "surge-alloy", "amount": 50 },
-		{ "item": "wizz", "amount": 50 }
+		{ "item": "wizzium", "amount": 150 },
+		{ "item": "lum", "amount": 50 },
 	],
 	"category": "turret",
 	"research": "meltdown"

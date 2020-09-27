@@ -6,7 +6,7 @@
 "description": "Looks kinda like a thorium wall... but its not.",
 "requirements": [
   {"item": "wizzium", "amount": 4},
-  {"item": "phase", "amount": 2}
+  {"item": "phase-fabric", "amount": 2}
 ],
 "research": "plastanium-wall",
 "category": "defense",

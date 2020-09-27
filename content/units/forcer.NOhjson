@@ -1,0 +1,17 @@
+type: hoverUnit
+name: Forcer
+description: Walking force projector.
+speed: 0.05
+health: 550
+hitsize: 65
+baseRotateSpeed: 0
+engineSize: 0
+flying: true
+range: 20
+rotatespeed: 0
+weapon: {
+  reload: 600000
+  bullet: {
+    lifetime: 0
+    }
+}

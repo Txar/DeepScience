@@ -1,5 +1,5 @@
-name: Curret
-description: Current Turret
+name: Current
+description: Current Turret.
 size: 2
 type: PowerTurret
 shootEffect: lightningShoot

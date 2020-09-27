@@ -11,9 +11,8 @@ inaccuracy: 15
 rotatespeed: 1.5
 powerUse: 21.4
 requirements: [
-  undulium/20
+  wizzium/20
   surge-alloy/200
-  diamond/80
   silicon/100
 ]
 category: turret
