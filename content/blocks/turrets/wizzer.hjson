@@ -3,7 +3,7 @@ localizedName: Wizzer
 description: A bigger anti-air turret.
 health: 1284
 size: 3
-type: burstTurret
+type: ItemTurret
 reload: 19
 targetGround: false
 range: 250

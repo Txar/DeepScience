@@ -1,4 +1,4 @@
-type: DoubleTurret
+type: ItemTurret
 name: Disintegrator
 description: Disintegrates everything that gets on his way, doesnt deal much damage but is REALLY fast.
 health: 8000
