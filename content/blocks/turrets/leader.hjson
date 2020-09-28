@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Leader
-description: Pretty cheap, good turret. Can shot with pretty weird stuf (lead and titanium).
+description: Pretty cheap, good turret. Can shoot with pretty weird stuf (lead and titanium).
 health: 4500
 size: 3
 reload: 40
@@ -10,46 +10,41 @@ targetAir: True
 ammoUseEffect: shellEjectMedium
 inaccuracy: 5
 shootCone: 15
-ammo: {
-  titanium: {
+ammo: [
+  titanium:
     speed: 4
     damage: 26
     bulletWidth: 8
     bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
-  }
-  lead: {
+  lead:
     speed: 4
     damage: 22
     bulletWidth: 8
     bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
-  }
-  ice-shards: {
+  ice-shards:
     speed: 4
     damage: 15
     bulletWidth: 8
     bulletHeight: 11
     shootEffect: blastsmoke
     lifetime: 180
-   }
-   graphite: {
+   graphite:
     speed: 4
     damage: 28
     bulletWidth: 8
     bulletHeight: 11
     shootEffect: blastsmoke
-   }
-   thorium: {
+   thorium:
     speed: 4
     damage: 34
     bulletWidth: 8
     bulletHeight: 11
     shootEffect: blastsmoke
-   }
-}
+]
 requirements: [
   lum/50
   graphite/50

@@ -1,9 +1,9 @@
-ammo: {
+ammo: [
   copper: standardCopper
   graphite: standardDense
   pyratite: standardIncendiary
   silicon: standardHoming
-  ice-shards: {
+  ice-shards:
     speed: 6.0
     damage: 25
     reloadMultiplier: 0.5
@@ -14,5 +14,4 @@ ammo: {
     ammoMultiplier: 2
     backColor: b3d0ff
     frontColor: b3d0ff
-  }
-}
+]
