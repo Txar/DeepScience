@@ -7,12 +7,12 @@ if(typeof(require) !== "undefined"){
 	//require("blocks/undulium-mixer");
 	//require("blocks/ash");
 	//require("blocks/tentacler");
-	//require("blocks/trinox");
-	require("blocks/leader");
+	require("blocks/trinox");
+	//require("blocks/leader");
 	//require("prism");
 	//require("stuffloader");
 	//require("i-melter")
 	//require("lum-crucible");
 	//require("tracker");
-        //require("blocks/stomper")
+    //require("blocks/stomper")
 }

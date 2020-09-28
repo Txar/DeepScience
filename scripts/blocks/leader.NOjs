@@ -27,6 +27,5 @@ thoriumBullet.pierce = true;
 thoriumBullet.despawnEffect = Fx.none;
 thoriumBullet.keepVelocity = false;
 thoriumBullet.hittable = false;
-draw(b)
 const leader = extendContent(ItemTurret, "leader", {});
 leader.ammo(Items.graphite, graphiteBullet, Items.thorium, thoriumBullet);
