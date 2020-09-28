@@ -32,5 +32,3 @@ thoriumBullet.hittable = false;
 
 const leader = extendContent(ItemTurret, "leader", {});
 leader.ammo(Items.graphite, graphiteBullet, Items.thorium, thoriumBullet);
-leader.shots = 4;
-leader.reload = 40;
