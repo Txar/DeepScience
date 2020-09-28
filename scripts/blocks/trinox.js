@@ -1,4 +1,11 @@
 const laser = extend(BulletType, {
+    getDamage(b){
+        return this.damage;
+    },
+    getColor(b){
+        return Tmp.c1.set(Color.white).lerp(Pal.lancerLaser);
+    },
+
     collision(other, x, y){
         this.hit(this.base(), x, y);
         if(other instanceof Healthc){
