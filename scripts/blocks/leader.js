@@ -1,7 +1,6 @@
 const graphiteBullet = extend(BulletType, {
     hit(b, x, y){
         this.super$hit(b, b.x, b.y);
-        b.owner.incExp(0.5);
     }
 });
 graphiteBullet.ammoMultiplier = 3;
@@ -17,7 +16,6 @@ graphiteBullet.hittable = false;
 const thoriumBullet = extend(BulletType, {
     hit(b, x, y){
         this.super$hit(b, b.x, b.y);
-        b.owner.incExp(0.5);
     }
 });
 thoriumBullet.ammoMultiplier = 3;
