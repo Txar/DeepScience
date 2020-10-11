@@ -14,3 +14,4 @@ for(var i = 0; i < Vars.content.items().size; i++){
 	this.global.liquids.push(liquid);
 };*/
 //this was never a good idea...
+print("This was ditched because everything as a liquid isnt a good idea")
