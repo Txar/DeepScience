@@ -1,0 +1,4 @@
+h.create(prov=>extendContent(GroundUnit, "forcer"{
+  canRotare(tile){
+    return false;
+});;

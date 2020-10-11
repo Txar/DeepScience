@@ -1,0 +1,51 @@
+name: dher
+localizedName: Dher
+description: A pretty cool liquid turret.
+health: 8000
+size: 5
+reload: 15
+range: 200
+expanded: True
+inaccuracy: 15
+ammo: {
+  molten-lum: {
+    type: LiquidBulletType
+    damage: 15
+    liquid: molten-lum
+  }
+  
+  slag: {
+    type: LiquidBulletType
+    damage: 15
+    liquid: slag
+  }
+  
+  cryofluid: {
+    type: LiquidBulletType
+    damage: 13
+    liquid: cryofluid
+  }
+  
+  water: {
+    type: LiquidBulletType
+    damage: 7
+    liquid: water
+  }
+  molten-copper: {
+    type: LiquidBulletType
+    damage: 15
+    liquid: molten-copper
+  }
+  molten-lead: {
+    type: LiquidBulletType
+    damage: 150
+    liquid: molten-lead
+  }
+}
+requirements: [
+  lum/100
+  plastanium/150
+  lead/50
+]
+category: turret
+research: wave

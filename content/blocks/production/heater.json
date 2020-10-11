@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Heater",
+	"description": "Heats ice into water.",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.25,
+		"items": {
+			"items": [
+				{"item": "ice-shards", "amount": 1}
+			]}
+		},
+	"outputLiquid": {"liquid": "water", "amount": "7.8"},
+	"requirements": [
+		{ "item": "lum", "amount": 50 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "water-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

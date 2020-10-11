@@ -1,0 +1,46 @@
+type: ArtilleryTurret
+name: Lang
+description: Slow artilerry turret shooting fast bullets in a pretty long range.
+health: 2000
+size: 2
+reload: 60
+range: 300
+targetAir: False
+shootSound: artillery
+ammoUseEffect: shellEjectMedium
+inaccuracy: 0
+ammo: {
+  pozilium: {
+    speed: 10
+    damage: 50
+    bulletWidth: 10
+    bulletHeight: 20
+    shootEffect: blastsmoke
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  blast-compound: {
+    speed: 10
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 15
+    shootEffect: blastsmoke
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  thorium: {
+    speed: 10
+    damage: 25
+    bulletWidth: 10
+    bulletHeight: 20
+    shootEffect: smoke
+    frontColor: 7228a1
+    backColor: 7228a1
+  }
+}
+requirements: [
+  undulium/50
+  graphite/30
+]
+category: turret
+research: hail

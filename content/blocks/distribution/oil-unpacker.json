@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Oil Unpacker",
+	"description": "Unpacks oil from packs.",
+	"size": 1,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "packed-oil", "amount": 1}
+			]}
+		}
+	"outputLiquid": {"liquid": "oil", "amount": "7.8"},
+	"requirements": [
+		{ "item": "lum", "amount": 10 },
+		{ "item": "metaglass", "amount": 10 }
+	],
+	"category": "distribution",
+	"research": "oil-packer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,9 @@
+name: Molten Lum
+description: Just lum in liquid form.
+temperature: 1.5
+flammability: 0.3
+viscosity: 0.4
+effect: melting
+color: 00bfff
+barColor: 00bfff
+explosiveness: 0.0

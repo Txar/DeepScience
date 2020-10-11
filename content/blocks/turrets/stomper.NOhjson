@@ -1,0 +1,17 @@
+name: Stomper
+description: Clash.
+size: 2
+spread: 1
+shots: 2
+reload: 30
+recoil: 0
+restitution: 0.03
+range: 150
+shootCone: 0
+health: 400
+category: turret
+requirements: [
+  lum/20
+  graphite/35
+]
+research: tracker

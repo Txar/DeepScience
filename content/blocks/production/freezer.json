@@ -1,0 +1,25 @@
+{
+	"type": "GenericSmelter",
+	"name": "Freezer",
+	"description": "Freezes water into ice.",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.25,
+		"liquid": {"liquid": "water", "amount": "0.156"},
+		},
+	"outputItem": {"item": "ice-shards", "amount": "1"},
+	"requirements": [
+		{ "item": "lum", "amount": 50 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "heater",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

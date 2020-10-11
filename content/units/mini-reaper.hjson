@@ -1,0 +1,20 @@
+type: hoverUnit
+name: Licher
+description: Looks like reaper, shoots like lich. Not really strong but pretty cute. :D
+speed: 0.006
+flying: true
+health: 2500
+hitsize: 20
+engineOffset: 15
+engineSize: 3.0
+drag: 0.01
+mass: 5
+range: 50
+weapon: {
+  name: an-gun
+  length: 1
+  reload: 25
+  damage: 34
+  bullets: 12
+  bullet: missileSwarm
+}

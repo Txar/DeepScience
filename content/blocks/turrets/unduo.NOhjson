@@ -1,0 +1,47 @@
+type: DoubleTurret
+name: unduo
+description: Upgraded version of duo, wich can shoot with pozilium.
+health:1000
+size: 1
+reload: 20
+range: 50
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 15
+ammo: {
+  pozilium: {
+    damage: 30,
+    speed: 6.0
+    bulletWidth: 5.0
+    bulletHeight: 10.0
+    lifetime: 40
+    shootEffect: shootSmall
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  thorium: {
+    speed: 10
+    damage: 20
+    bulletWidth: 5
+    bulletHeight: 10
+    shootEffect: smoke
+    frontColor: 7228a1
+    backColor: 7228a1
+  }
+  blast-compound: {
+    damage: 25,
+    speed: 6.0
+    bulletWidth: 5.0
+    bulletHeight: 10.0
+    lifetime: 40
+    shootEffect: shootSmall
+    frontColor: ff1100
+    backColor: ff1100
+  }
+}
+requirements: [
+  undulium/35
+  metaglass/20
+]
+category: turret
+research: duo

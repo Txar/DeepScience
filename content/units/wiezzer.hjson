@@ -1,0 +1,25 @@
+type: FlyingUnit
+name: Wiezzer
+description: Flying tank which can shoot only ground units.
+speed: 0.1
+flying: true
+targetAir: false
+health: 3000
+range: 10
+engineColor: "f721b7"
+weapon: {
+  name: bruh
+  length: 1
+  reload: 45
+  bullet: {
+    lifetime: 50
+    speed: 4.0
+    damage: 10
+    hitTiles: true
+    frontColor: f721b7
+    backColor: f721b7
+    homingPower: 0
+    homingRange: 0
+    fragBullets: 10
+    }
+}

@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "Oil Packer",
+	"description": "Packs oil into gray boxes.",
+	"size": 2,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "packed-oil", "amount": 1},
+	"consumes": {
+		"liquid": {"liquid": "oil", "amount": "0.156"},
+		"power": 0.5,
+		},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "lum", "amount": 50 },
+		{ "item": "metaglass", "amount": 50 }
+	],
+	"category": "distribution",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

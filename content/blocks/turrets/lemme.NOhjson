@@ -1,0 +1,62 @@
+type: ItemTurret
+name: Lemme
+description: Lemme present this one to you.
+health: 200
+size: 2
+reload: 30
+range: 105
+ammoUseEffect: shellEjectSmall
+inaccuracy: 7
+ammo: {
+  pozilium: {
+    speed: 6
+    damage: 20
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: shootPyraFlame
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  blast-compound: {
+    speed: 6
+    damage: 17
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: shootPyraFlame
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  thorium: {
+    speed: 6
+    damage: 15
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: blastsmoke
+    frontColor: bc70ff
+    backColor: bc70ff
+  }
+  copper: {
+    speed: 6
+    damage: 12
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: blastsmoke
+    frontColor: dbc9ad
+    backColor: dbc9ad
+  }
+  lead: {
+    speed: 6
+    damage: 14
+    bulletWidth: 5
+    bulletHeight: 7
+    shootEffect: blastsmoke
+    frontColor: dbc9ad
+    backColor: dbc9ad
+  }
+}
+requirements: [
+  lum/100
+]
+category: turret
+research: scorch
+

@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Diamond Sintetizer",
+	"description": "Syntetizes diamonds",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.3,
+		"items": {
+			"items": [
+				{"item": "coal", "amount": 3}
+			]}
+		},
+	"outputItem": {"item": "diamond", "amount": "2"},
+	"requirements": [
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "lum", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "lum-crucible",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

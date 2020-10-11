@@ -1,0 +1,32 @@
+{
+	"type": "GenericSmelter",
+	"name": "Wizzium Smelter",
+	"description": "Smelts Metaglass, Thorium and Silicon into Wizzium",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{"item": "thorium", "amount": 4},
+				{"item": "silicon", "amount": 2},
+				{"item": "metaglass", "amount": 3},
+			],
+		}
+	},
+	"outputItem": {"item": "wizz", "amount": "3"},
+	"requirements": [
+		{ "item": "metaglass", "amount": 50 },
+		{ "item": "surge-alloy", "amount": 50 },
+		{ "item": "thorium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "alloy-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

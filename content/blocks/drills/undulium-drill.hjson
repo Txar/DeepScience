@@ -1,0 +1,24 @@
+name: Wizzium Drill
+description: Better than the blast drill.
+type: Drill
+size: 4
+tier: 4
+hasPower: true
+drillTime: 120
+rotateSpeed: 5
+consumes: {
+  power: 5
+  liquid: {
+      liquid: cryofluid
+	  amount: 0.2
+	  booster: true
+	  optional: true
+  }
+}
+requirements: [
+  wizz/50
+  diamond/50
+  lum/50
+]
+category: production
+research: blast-drill

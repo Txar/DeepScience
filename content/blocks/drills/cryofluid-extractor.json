@@ -1,0 +1,31 @@
+{
+	"name": "Cryofluid Extractor",
+	"type": "GenericCrafter",
+	"description": "Drills deep into the earth and pumps up cyofluid. Consumes titan.",
+	"outputLiquid": {"liquid": "cryofluid", "amount": 36},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": true,
+	"itemCapacity": 10,
+	"craftTime": 20,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "titanium", "amount": 4}
+			]}
+		},
+	"requirements": [
+		{ "item": "titanium", "amount": 25 },
+		{ "item": "lum", "amount": 50 },
+		{ "item": "graphite", "amount": 25 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "metaglass", "amount": 50 }
+	],
+	"category": "production",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

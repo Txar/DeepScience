@@ -1,0 +1,28 @@
+{
+	"type": "GenericCrafter",
+	"name": "Lead Melter",
+	"description": "Melts lead into liquid lead.",
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.25,
+		"items": {
+			"items": [
+				{"item": "lead", "amount": 1}
+			]}
+		},
+	"outputLiquid": {"liquid": "molten-lead", "amount": "15.6"},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "copper-melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,12 @@
+{
+"name": "Large Lum Wall",
+"type": "surgeWall",
+"size": 2,
+"health": 1520,
+"description": "Just a bigger Lum wall. Nothing special.",
+"requirements": [
+  {"item": "lum", "amount": 24},
+],
+"research": "lum-wall",
+"category": "defense",
+}

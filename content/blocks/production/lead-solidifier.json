@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter",
+	"name": "Lead Solidifier",
+	"description": "Solidifies molten lead.",
+	"size": 1,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"outputItem": {"item": "lead", "amount": 1},
+	"consumes": {
+		liquid: {"liquid": "molten-lead", "amount": "0.312"},
+		},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+	],
+	"category": "crafting",
+	"research": "copper-solidifier",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

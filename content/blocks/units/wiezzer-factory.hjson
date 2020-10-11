@@ -1,0 +1,22 @@
+name: Wiezzer Factory
+description: Makes Wiezzers.
+type: UnitFactory
+unitType: wiezzer
+size: 4
+produceTime: 350
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      wizz/5
+      metaglass/10
+    ]
+  }
+}
+category: units
+research: undulium-fighter-factory
+requirements: [
+  lead/50
+  lum/20
+  wizz/15
+]

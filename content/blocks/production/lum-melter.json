@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Lum Melter",
+	"description": "Melts lum into liquid lum.",
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.25,
+		"items": {
+			"items": [
+				{"item": "lum", "amount": 1}
+			]}
+		}
+	"outputLiquid": {"liquid": "molten-lum", "amount": "15.6"},
+	"requirements": [
+		{ "item": "lum", "amount": 50 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "graphite", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "copper-melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

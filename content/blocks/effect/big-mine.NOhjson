@@ -1,0 +1,15 @@
+type: shockMine
+name: Big Shock Mine
+health: 5000
+description: Creates a huge explosion when stepped on it.
+cooldown: 120
+tileDamage: 20
+damage: 50
+length: 25
+size: 3
+category: effect
+requirements: [
+  lum/20
+  silicon/15
+  dherium/10
+ ]

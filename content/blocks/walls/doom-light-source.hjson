@@ -1,0 +1,11 @@
+type: Wall
+health: 600
+size: 4
+name: LightSource
+description: Up to Txor.
+update: true
+requirements: [
+  copper/1
+]
+category: upgrade
+research: lancer

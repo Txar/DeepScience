@@ -1,0 +1,10 @@
+type: floor
+name: Liquid Copper
+isLiquid: true
+liquidDrop: molten-copper
+playerUnmineable: true
+drownTime: 240
+walkEffect: melting
+variants: 0
+oreScale: 0
+cacheLayer: tar

@@ -1,0 +1,23 @@
+type: DecayGenerator
+name: Dherium Degratator
+description: Degradates Dherium and makes power.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 50
+powerProduction: 10
+consumes: {
+  items: {
+    items: [
+      dherium/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/10
+  silicon/30
+  diamond/30
+]
+category: power
+research: rtg-generator

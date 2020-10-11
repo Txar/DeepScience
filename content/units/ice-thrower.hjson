@@ -1,0 +1,23 @@
+type: FlyingUnit
+name: Ice Thrower
+description: Flies and throws ice.
+speed: 0.1
+flying: true
+health: 20
+range: 10
+weapon: {
+  name: ice-gun
+  length: 1
+  reload: 60
+  bullet: {
+    lifetime: 50
+    speed: 4.0
+    damage: 7
+    hitTiles: true
+    frontColor: bafffd
+    backColor: bafffd
+    homingPower: 0
+    homingRange: 0
+    fragBullets: 10
+    }
+}

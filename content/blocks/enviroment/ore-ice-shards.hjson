@@ -1,0 +1,6 @@
+type: oreBlock
+name: Ice Shards
+oreDefault: false
+itemDrop: ice-shards
+variants: 3
+playerUnmineable: true

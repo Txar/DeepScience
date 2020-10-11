@@ -1,0 +1,25 @@
+const packoil = extendContent(GenericCrafter, "oil-packer", {
+  load: function(){
+    this.region = Core.atlas.find(this.name + "-base");
+    this.liquidRegion = Core.atlas.find(this.name + "-liquid");
+	this.topRegion = Core.atlas.find(this.name + "-top");
+  },
+  
+  generateIcons: function(){
+    return [
+        Core.atlas.find(modName + "-oil-packer-base"),
+        Core.atlas.find(modName + "-oil-packer-top")
+    ];},
+    
+    draw: function(tile){
+      entity = tile.ent();
+        
+        Draw.rect(this.region, tile.drawx(), tile.drawy());
+        
+        Draw.alpha(entity.warmup);
+        Draw.color();
+        
+        Draw.rect(this.liquidRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 1.3);
+        Draw.rect(this.topRegion, tile.drawx(), tile.drawy(), entity.totalProgress * 1.3);
+    }
+});

@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Dherium Connector",
+	"description": "Connects diamond and thorium into dherium.",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{"item": "diamond", "amount": 1},
+				{"item": "thorium", "amount": 1},
+			]
+		}
+	},
+	"outputItem": {"item": "dherium", "amount": "2"},
+	"requirements": [
+		{ "item": "diamond", "amount": 50 },
+		{ "item": "thorium", "amount": 50 },
+		{ "item": "lum", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "lum-crucible",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

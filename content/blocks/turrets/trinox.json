@@ -1,0 +1,28 @@
+{
+	"localizedName": "Trinox",
+	"description": "Lancer-type turret. Deals less damage but is a lot faster so has more DPS (damage per second).",
+	"health": 1240,
+	"size": 2,
+	"reload": 40,
+	"range": 120,
+	"shootCone": 20,
+	"heatColor": "FF0000",
+	"ammoUseEffect": "none",
+	"rotatespeed": 4.5,
+	"recoil": 2,
+	"powerUse": 2,
+	"hasPower": true,
+	"targetAir": true,
+	"shootSound": "laser",
+	"chargeEffects": 10,
+	"chargeMaxDelay": 35,
+	"chargeTime": 30,
+	"cooldown": 0.022,
+	"requirements": [
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "lum", "amount": 80 }
+	],
+	"category": "turret",
+	"research": "lancer"
+}

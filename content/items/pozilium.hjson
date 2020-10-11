@@ -1,0 +1,7 @@
+type: resource
+name: Pozilium
+description: Its like blast compound but radioactive.
+color: 985c99
+radioactivity: 0.7
+flammability: 0.7
+explosiveness: 0.7

@@ -1,0 +1,12 @@
+{
+"name": "Lum Wall",
+"type": "surgeWall",
+"size": 1,
+"health": 380,
+"description": "Poor version of Surge wall.",
+"requirements": [
+  {"item": "lum", "amount": 6}
+],
+"research": "copper-wall",
+"category": "defense",
+}

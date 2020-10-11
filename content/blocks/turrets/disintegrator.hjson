@@ -1,0 +1,48 @@
+type: DoubleTurret
+name: Disintegrator
+description: Disintegrates everything that gets on his way, doesnt deal much damage but is REALLY fast.
+health: 8000
+size: 4
+reload: 2
+range: 200
+ammoUseEffect: shellEjectMedium
+inaccuracy: 15
+rotatespeed: 15
+ammo: {
+  pozilium: {
+    damage: 20,
+    speed: 6.0
+    bulletWidth: 10.0
+    bulletHeight: 15.0
+    lifetime: 40
+    shootEffect: shootBig
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  thorium: {
+    speed: 10
+    damage: 16
+    bulletWidth: 5
+    bulletHeight: 10
+    shootEffect: smoke
+    frontColor: 7228a1
+    backColor: 7228a1
+  }
+  blast-compound: {
+    damage: 18,
+    speed: 6.0
+    bulletWidth: 10.0
+    bulletHeight: 15.0
+    lifetime: 40
+    shootEffect: shootBig
+    frontColor: ff1100
+    backColor: ff1100
+  }
+}
+requirements: [
+  wizz/35
+  plastanium/20
+  lum/30
+]
+category: turret
+research: cyclone

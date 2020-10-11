@@ -1,0 +1,27 @@
+{
+	"type": "GenericSmelter",
+	"name": "Copper Solidifier",
+	"description": "Solidifies molten Copper.",
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.3,
+		"liquid": {
+			"liquid": "molten-copper",
+			"amount": 0.13,
+		}
+	"outputItem": {"item": "copper", "amount": "2"},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "copper", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

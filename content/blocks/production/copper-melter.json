@@ -1,0 +1,27 @@
+{
+	"type": "GenericCrafter",
+	"name": "Copper Melter",
+	"description": "Melts copper into liquid copper.",
+	"size": 1,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.25,
+		"items": {
+			"items": [
+				{"item": "copper", "amount": 1}
+			]}
+		},
+	"outputLiquid": {"liquid": "molten-copper", "amount": "15.6"},
+	"requirements": [
+		{ "item": "copper", "amount": 150 },
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

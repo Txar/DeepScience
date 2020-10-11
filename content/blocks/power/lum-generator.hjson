@@ -1,0 +1,31 @@
+name: Lum Generator
+description: Small, cheap version of steam generator.
+type: NuclearReactor
+size: 1
+heating: 0.0001
+explosionDamage: 50
+explosionRadius: 5
+coolantPower: 0.3
+itemCapacity: 10
+liquidCapacity: 10
+consumesPower: false
+outputsPower: true
+powerProduction: 2.5
+health: 250
+consumes: {
+  liquid: {
+      liquid: water
+	  amount: 0.05
+  }
+  items: {
+    items: [
+      coal/1
+    ]
+  }
+}
+category: power
+research: combustion-generator
+requirements: [
+  lum/80
+  copper/20
+]

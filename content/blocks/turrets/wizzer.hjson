@@ -1,0 +1,59 @@
+name: Wizzer
+localizedName: Wizzer
+description: A bigger anti-air turret.
+health: 1284
+size: 3
+type: burstTurret
+reload: 19
+targetGround: false
+range: 250
+ammoUseEffect: shellEjectMedium
+inaccuracy: 15
+shootCone: 25
+ammo: {
+  pozilium: {
+    speed: 4
+    damage: 12
+    bulletWidth: 10
+    bulletHeight: 12
+    shootEffect: blastsmoke
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  blast-compound: {
+    speed: 4
+    damage: 10
+    bulletWidth: 10
+    bulletHeight: 12
+    shootEffect: blastsmoke
+    frontColor: ff1100
+    backColor: ff1100
+  }
+  thorium: {
+    speed: 4
+    damage: 8
+    bulletWidth: 10
+    bulletHeight: 12
+    shootEffect: blastsmoke
+    frontColor: bc70ff
+    backColor: bc70ff
+  }
+  ice-shards: {
+    speed: 4
+    damage: 6
+    bulletWidth: 10
+    bulletHeight: 12
+    shootEffect: blastsmoke
+    ammoMultipler: 2
+    frontColor: bc70ff
+    backColor: bc70ff
+  }
+}
+requirements: [
+  plastanium/100
+  lead/300
+  silicon/100
+  wizz/200
+]
+category: turret
+research: spectre

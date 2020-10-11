@@ -1,0 +1,23 @@
+type:GroundUnit
+name: Undulium Fighter
+description: Some health and not a special a gun.
+speed: 0.05
+flying: false
+health: 300
+range: 20
+weapon: {
+  name: not-a-special-gun
+  length: 1
+  reload: 60
+  bullet: {
+    lifetime: 50
+    speed: 4.0
+    damage: 7
+    hitTiles: true
+    frontColor: 8b65d7
+    backColor: 8b65d7
+    homingPower: 0
+    homingRange: 0
+    fragBullets: 4
+    }
+}

@@ -1,0 +1,18 @@
+ammo: {
+  copper: standardCopper
+  graphite: standardDense
+  pyratite: standardIncendiary
+  silicon: standardHoming
+  ice-shards: {
+    speed: 6.0
+    damage: 25
+    reloadMultiplier: 0.5
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    backColor: b3d0ff
+    frontColor: b3d0ff
+  }
+}

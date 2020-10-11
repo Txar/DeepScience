@@ -1,0 +1,23 @@
+type: forceProjector
+name: Mini Force Projector
+description: Just a force projector but smaller.
+radius: 45.06
+size: 2
+phaseRadiusBoost: 35.5
+breakage: 244.4
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      phase-fabric/0.44
+    ]
+  }
+}
+requirements: [
+  lead/50
+  titanium/30
+  silicon/55
+  lum/20
+]
+research: mend-projector
+category: effect

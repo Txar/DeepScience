@@ -1,0 +1,32 @@
+{
+	"name": "Undulium Mixer",
+	"description": "Mixes metaglass with liquid lum. Outputted item is undulium.",
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"itemCapacity": 10,
+	"craftTime": 50,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 2.0,
+		"items": {
+			"items": [
+				{"item": "metaglass", "amount": 2}
+			]}
+		"liquid": {
+			"liquid": "molten-lum",
+			"amount": 0.5
+		}
+	},
+	"outputItem": {"item": "undulium", "amount": "1"},
+	"requirements": [
+		{ "item": "plastanium", "amount": 50 },
+		{ "item": "titanium", "amount": 20 },
+		{ "item": "metaglass", "amount": 30 }
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

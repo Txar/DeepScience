@@ -1,0 +1,6 @@
+type: material
+name: Diamond
+description: Smilar to graphite.
+color: ffffff
+hardness: 4
+cost: 2
