@@ -1,4 +1,4 @@
-print("Test [accent] TEST []");
+/*print("Test [accent] TEST []");
 this.global.liquids = [];
 this.global.items = [];
 for(var i = 0; i < Vars.content.items().size; i++){
@@ -12,4 +12,5 @@ for(var i = 0; i < Vars.content.items().size; i++){
 	liquid.heatCapacity = 0.3;
 	liquid.viscosity = 0.5;
 	this.global.liquids.push(liquid);
-};
+};*/
+//this was never a good idea...
