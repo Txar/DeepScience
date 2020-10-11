@@ -20,7 +20,7 @@
 	},
 	"outputItem": {"item": "pozilium", "amount": "1"},
 	"requirements": [
-		{ "item": "wizzium", "amount": 30 },
+		{ "item": "wizz", "amount": 30 },
 		{ "item": "thorium", "amount": 20 },
 		{ "item": "lead", "amount": 30 }
 	],

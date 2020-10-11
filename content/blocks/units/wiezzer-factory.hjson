@@ -14,7 +14,7 @@ consumes: {
   }
 }
 category: units
-research: undulium-fighter-factory
+research: ghoul-bomber-factory
 requirements: [
   lead/50
   lum/20
