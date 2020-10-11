@@ -38,7 +38,7 @@ ammo: {
   }
 }
 requirements: [
-  undulium/100
+  wizz/100
   lead/300
   diamond/100
 ]

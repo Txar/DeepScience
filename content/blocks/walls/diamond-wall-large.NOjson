@@ -1,0 +1,12 @@
+{
+"name": "Large Diamond Wall",
+"type": "Wall",
+"size": 2,
+"health": 3000,
+"description": "Just a bigger diamond wall. Nothing special.",
+"requirements": [
+  {"item": "diamond", "amount": 24}
+]
+"research": "plastanium-wall",
+"category": "defense",
+}

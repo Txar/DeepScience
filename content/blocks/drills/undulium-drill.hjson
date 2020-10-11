@@ -1,4 +1,4 @@
-name: Undulium Drill
+name: Wizzium Drill
 description: Better than the blast drill.
 type: Drill
 size: 4
@@ -16,7 +16,7 @@ consumes: {
   }
 }
 requirements: [
-  undulium/50
+  wizz/50
   diamond/50
   lum/50
 ]

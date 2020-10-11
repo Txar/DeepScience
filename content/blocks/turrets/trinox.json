@@ -13,7 +13,7 @@
 	"powerUse": 2,
 	"hasPower": true,
 	"targetAir": true,
-	"shootSound": "laser"
+	"shootSound": "laser",
 	"chargeEffects": 10,
 	"chargeMaxDelay": 35,
 	"chargeTime": 30,

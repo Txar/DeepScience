@@ -15,7 +15,7 @@
 			"items": [
 				{"item": "coal", "amount": 3}
 			]}
-		}
+		},
 	"outputItem": {"item": "diamond", "amount": "2"},
 	"requirements": [
 		{ "item": "graphite", "amount": 50 },

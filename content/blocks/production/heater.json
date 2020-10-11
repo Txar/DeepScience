@@ -15,7 +15,7 @@
 			"items": [
 				{"item": "ice-shards", "amount": 1}
 			]}
-		}
+		},
 	"outputLiquid": {"liquid": "water", "amount": "7.8"},
 	"requirements": [
 		{ "item": "lum", "amount": 50 },

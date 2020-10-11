@@ -50,9 +50,9 @@ ammo: {
   }
 }
 requirements: [
-  undulium/100
+  plastanium/100
   lead/300
-  diamond/100
+  silicon/100
   wizz/200
 ]
 category: turret

@@ -17,6 +17,6 @@ category: units
 research: undulium-fighter-factory
 requirements: [
   lead/50
-  undulium/20
+  lum/20
   wizz/15
 ]
