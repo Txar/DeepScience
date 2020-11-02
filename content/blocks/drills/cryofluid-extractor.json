@@ -25,7 +25,7 @@
 		{ "item": "metaglass", "amount": 50 }
 	],
 	"category": "production",
-	"research": "cryofluidmixer",
+	"research": "cryofluid-mixer",
 	"idleSound": "respawning",
 	"idleSoundVolume": 0.5
 }
